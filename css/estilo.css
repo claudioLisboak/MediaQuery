@@ -36,3 +36,14 @@ background-color: blue;
         ;
     }
 }
+@media(min-width:992){
+    .grid{
+        display:grid;
+        gap: 10px;
+        grid-template-areas: 
+        'navbar filtros filtros filtros filtros'
+        'navbar main main main main'
+        'footer footer footer footer footer'
+        ;
+    }
+}

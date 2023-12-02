@@ -1,4 +1,27 @@
 html{
     margin: 0;
     padding: 0;
+    width: 100%;
+}
+.grid{
+    display:grid;
+    gap: 10px;
+    grid-template-areas: 
+    'navbar'
+    'filtros'
+    'main'
+    'footer'
+    ;
+}
+.navbar{
+background-color: blue;
+}
+.filtros{
+    background-color: gray;
+}
+.main{
+    background-color: violet;
+}
+.footer{
+    background-color: green;
 }

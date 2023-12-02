@@ -25,3 +25,14 @@ background-color: blue;
 .footer{
     background-color: green;
 }
+@media(min-width: 576){
+    .grid{
+        display:grid;
+        gap: 10px;
+        grid-template-areas: 
+        'navbar navbar navbar'
+        'filtros main main'
+        'footer footer footer'
+        ;
+    }
+}

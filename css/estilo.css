@@ -25,7 +25,7 @@ background-color: blue;
 .footer{
     background-color: green;
 }
-@media(min-width: 576){
+@media(min-width: 576px){
     .grid{
         display:grid;
         gap: 10px;
@@ -36,7 +36,7 @@ background-color: blue;
         ;
     }
 }
-@media(min-width:992){
+@media(min-width:992px){
     .grid{
         display:grid;
         gap: 10px;

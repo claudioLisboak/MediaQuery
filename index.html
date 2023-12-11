@@ -6,13 +6,248 @@
     <title>Media Query</title>
     <!--estilos-->
     <link rel="stylesheet" type="text/css" href="/css/estilo.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/@mdi/font@7.3.67/css/materialdesignicons.min.css">
+    <!--fuentes-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   </head>
   <body>
     <div class="grid">
-        <nav class="navbar"></nav>
-        <div class="filtros"></div>
-        <main class="main"></main>
-        <footer class="footer"></footer>
+        <div class="navbar">
+         <div class="logo">
+            <img class="imglogo" src="images/arbol.jpeg" alt="logo">
+            <div class="titulo">Mundo viajero</div>
+         </div> 
+         <div class="menubar"> <i class="fa-solid fa-bars"> menu</i></div>
+         <div class="barramenu">
+            <ul class="menu">
+                <li>HOME</li>
+                <li>EUROPA</li>
+                <li>LATINOAMERICA</li>
+                <li>ESTADOS UNIDOS</li>
+                <li>CARIBE </li>
+                <li>ASIA</li>
+            </ul>
+         </div>  
+        </div>
+        <div class="filtros">
+            <label>Ordenar por</label>
+            <select class="filter">
+                <option>precio</option>
+                <option>ciudad</option>
+                <option>mas visitados </option>
+            </select>
+        </div>
+        <div class="main">
+            <div class="flex-container">
+            <div class="producto">
+                <div class="face front">
+                    <img class="imgproducto" src="images/aruba.jpg" alt="1">
+                    <div class="descripcionproducto">Ver mas</div>
+                    <h3>ARUBA</h3>
+                    <div class="detalle">
+                        <div class="precio">Desde $178.293</div>
+                        <div class="estadia">Precio por noche (Temporada Baja)</div> 
+                    </div>
+                </div>
+                <div class="face back"> 
+                    <P class="resumen">Aruba es un destino turístico popular, conocido por sus resorts de lujo, actividades acuáticas, como el snorkel y el buceo, y su ambiente relajado. </P>
+                   
+                </div>
+            </div>
+            <div class="producto">
+                <div class="face front">
+                    <img class="imgproducto" src="images/mendoza.jpg" alt="1">
+                    <div class="descripcionproducto">Ver mas</div>
+                    <h3>MENDOZA</h3>
+                    <div class="detalle">
+                        <div class="precio">Desde $178.293</div>
+                       <div class="estadia">Precio por noche (Temporada Baja)</div> 
+                    </div>
+                </div>
+                <div class="face back"> 
+                    <p class="resumen">Mendoza es una provincia ubicada en la región de Cuyo, en el oeste de Argentina. Es conocida por sus impresionantes paisajes montañosos</p>
+                    <p></p>
+                </div>
+            </div>
+            <div class="producto">
+                <div class="face front">
+                    <img class="imgproducto" src="images/bayahibe.jpg" alt="1">
+                    <div class="descripcionproducto">Ver mas</div>
+                    <h3>BAYAHIBE</h3>
+                    <div class="detalle">
+                        <div class="precio">Desde $178.293</div>
+                       <div class="estadia">Precio por noche (Temporada Baja)</div> 
+                    </div>
+                </div>
+                <div class="face back"> 
+                    <p class="resumen"> Bayahibe es conocida por sus hermosas playas de arena blanca y aguas cristalinas. Entre las playas más destacadas se encuentra Playa Bayahibe y Playa Dominicus. Estos lugares son ideales para relajarse.</p>
+                    <p></p>
+                </div>
+            </div>
+            <div class="producto">
+                <div class="face front">
+                    <img class="imgproducto" src="images/bariloche.jpg" alt="1">
+                    <div class="descripcionproducto">Ver mas</div>
+                    <h3>BARILOCHE</h3>
+                    <div class="detalle">
+                        <div class="precio">Desde $178.293</div>
+                        <div class="estadia">Precio por noche (Temporada Baja)</div> 
+                    </div>
+                </div>
+                <div class="face back"> 
+                    <p class="resumen">San Carlos de Bariloche, comúnmente conocida como Bariloche, es una ciudad ubicada en la provincia de Río Negro, en la región de la Patagonia, Argentina</p>
+                </div>
+            </div>
+            <div class="producto">
+                <div class="face front">
+                    <img class="imgproducto" src="images/miami.jpg" alt="1">
+                    <div class="descripcionproducto">Ver mas</div>
+                    <h3>MIAMI</h3>
+                    <div class="detalle">
+                        <div class="precio">Desde $178.293</div>
+                       <div class="estadia">Precio por noche (Temporada Baja)</div> 
+                    </div>
+                </div>
+                <div class="face back"> 
+                    <p class="resumen">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum expedita tenetur quam itaque, quia excepturi ex dolor iste eos id?</p>
+                    <p></p>
+                </div>
+            </div>
+            <div class="producto">
+                <div class="face front">
+                    <img class="imgproducto" src="images/montevideo.jpg" alt="1">
+                    <div class="descripcionproducto">Ver mas</div>
+                    <h3>MONTEVIDEO</h3>
+                    <div class="detalle">
+                        <div class="precio">Desde $178.293</div>
+                        <div class="estadia">Precio por noche (Temporada Baja)</div> 
+                    </div>
+                </div>
+                <div class="face back"> 
+                    <h3>1</h3>
+                    <p></p>
+                </div>
+            </div>
+            <div class="producto">
+                <div class="face front">
+                    <img class="imgproducto" src="images/orlando.jpg" alt="1">
+                    <div class="descripcionproducto">Ver mas</div>
+                    <h3>ORLANDO</h3>
+                    <div class="detalle">
+                        <div class="precio">Desde $178.293</div>
+                       <div class="estadia">Precio por noche (Temporada Baja)</div> 
+                    </div>
+                </div>
+                <div class="face back"> 
+                    <h3>1</h3>
+                    <p></p>
+                </div>
+            </div>
+            <div class="producto">
+                <div class="face front">
+                    <img class="imgproducto" src="images/punta_del_este.jpg" alt="1">
+                    <div class="descripcionproducto">Ver mas</div>
+                    <h3>PUNTA DEL ESTE</h3>
+                    <div class="detalle">
+                        <div class="precio">Desde $178.293</div>
+                       <div class="estadia">Precio por noche (Temporada Baja)</div> 
+                    </div>
+                </div>
+                <div class="face back"> 
+                    <h3>1</h3>
+                    <p></p>
+                </div>
+            </div>
+            <div class="producto">
+                <div class="face front">
+                    <img class="imgproducto" src="images/mendoza.jpg" alt="1">
+                    <div class="descripcionproducto">Ver mas</div>
+                    <h3>Mendoza</h3>
+                    <div class="detalle">
+                        <div class="precio">Desde $178.293</div>
+                       <div class="estadia">Precio por noche (Temporada Baja)</div> 
+                    </div>
+                </div>
+                <div class="face back"> 
+                    <h3>1</h3>
+                    <p></p>
+                </div>
+            </div>
+            <div class="producto">
+                <div class="face front">
+                    <img class="imgproducto" src="images/mendoza.jpg" alt="1">
+                    <div class="descripcionproducto">Ver mas</div>
+                    <h3>Mendoza</h3>
+                    <div class="detalle">
+                        <div class="precio">Desde $178.293</div>
+                       <div class="estadia">Precio por noche (Temporada Baja)</div> 
+                    </div>
+                </div>
+                <div class="face back"> 
+                    <h3>1</h3>
+                    <p></p>
+                </div>
+            </div>
+            <div class="producto">
+                <div class="face front">
+                    <img class="imgproducto" src="images/mendoza.jpg" alt="1">
+                    <div class="descripcionproducto">Ver mas</div>
+                    <h3>Mendoza</h3>
+                    <div class="detalle">
+                        <div class="precio">Desde $178.293</div>
+                        <div class="estadia">Precio por noche (Temporada Baja)</div> 
+                    </div>
+                </div>
+                <div class="face back"> 
+                    <h3>1</h3>
+                    <p></p>
+                </div>
+            </div>
+            <div class="producto">
+                <div class="face front">
+                    <img class="imgproducto" src="images/mendoza.jpg" alt="1">
+                    <div class="descripcionproducto">Ver mas</div>
+                    <h3>Mendoza</h3>
+                    <div class="detalle">
+                        <div class="precio">Desde $178.293</div>
+                        <div class="estadia">Precio por noche (Temporada Baja)</div> 
+                    </div>
+                </div>
+                <div class="face back"> 
+                    <h3>1</h3>
+                    <p></p>
+                </div>
+            </div>
+  
+
+
+        </div>
+        
+        
+    
+    </div>
+    <div class="paginacion">
+        <ul class="paginas">
+            <li><<</li>
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+            <li>>></li>
+        </ul>
+    </div>
+    <div class="footer">
+        <div class="ending">
+          
+          <div class="redes">
+            <div><i class="fa-brands fa-facebook"></i></div>
+            <div><i class="fa-brands fa-instagram"></i></div>
+          </div>
+          <div class="end">todos los derechos reservados </div>
+        </div>
+    </div>
     </div>
   </body>
 </html>
